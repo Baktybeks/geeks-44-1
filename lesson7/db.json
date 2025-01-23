@@ -1,0 +1,40 @@
+{
+  "student": [
+    {
+      "id": "11",
+      "surname": "Kuban",
+      "name": "Baktybek",
+      "groupId": 4
+    },
+    {
+      "id": "12",
+      "surname": "Sariev",
+      "name": "Baktybek",
+      "groupId": 4
+    },
+    {
+      "id": "13",
+      "surname": "Sariev",
+      "name": "Baktybek",
+      "groupId": 4
+    }
+  ],
+  "group": [
+    {
+      "id": "1",
+      "group": "БиПЗИм(дот)-1-22"
+    },
+    {
+      "id": "2",
+      "group": "ИВТСдот-1-22"
+    },
+    {
+      "id": "3",
+      "group": "ИСТд-1-22"
+    },
+    {
+      "id": "4",
+      "group": "ПЗИдот-1-22"
+    }
+  ]
+}
