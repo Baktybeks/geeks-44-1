@@ -73,10 +73,11 @@ const Fetch44 = () => {
 
     return (
         <div className={classes.wrapper}>
-            <button onClick={()=>postStudents('student')}>POST</button>
             <button onClick={()=>postAxios('student')}>POST AXIOS</button>
             <button onClick={()=>putAxios('student', '11')}>PUT AXIOS</button>
             <button onClick={()=>patchAxios('student', '11')}>PATCH AXIOS</button> //надо поставить id который будете изменять
+            <button onClick={()=>postStudents('student')}>POST</button>
+            Новая ветка
             {
                 students?.map(student => <div className={classes.student} key={student.id}>
                     <p>id: {student.id}</p>
