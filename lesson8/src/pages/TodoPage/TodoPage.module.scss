@@ -1,0 +1,23 @@
+.ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    .li {
+        border: 1px solid red;
+        &.green {
+            background: green;
+            color: white;
+        }
+        &.red {
+            background: red;
+            color: white !important;
+        }
+        &Id {
+            color: white;
+        }
+        &Title{
+            color: blue;
+        }
+    }
+}
